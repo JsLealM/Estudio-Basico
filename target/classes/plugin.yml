@@ -22,3 +22,8 @@ commands:
   anonimo:
     description: "Comadno anonimo"
     usage: /anonimo <argumento>
+  ejercicio:
+    description: "Comando Ejercicio Practicar Logica y Spigot"
+    usage: /ejercicio <argumento>
+    aliases:
+      - ej

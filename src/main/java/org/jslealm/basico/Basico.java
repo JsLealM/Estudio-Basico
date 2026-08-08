@@ -1,6 +1,7 @@
 package org.jslealm.basico;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import org.jslealm.basico.commands.EjercicioCommand;
 import org.jslealm.basico.commands.PrincipalCommand;
 import org.jslealm.basico.listeners.DamageEntityListener;
 import org.jslealm.basico.listeners.PlayerListener;
@@ -10,7 +11,7 @@ public final class Basico extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("[Basico] Plugin Iniciado!");
-        getCommand("monda").setExecutor(new PrincipalCommand());
+        registerCommand();
         registerListeners();
     }
 
@@ -24,9 +25,12 @@ public final class Basico extends JavaPlugin {
         pm.registerEvents(new DamageEntityListener(), this);
         pm.registerEvents(new PlayerListener(), this);
     }
+
+    private void registerCommand (){
+        getCommand("monda").setExecutor(new PrincipalCommand());
+        getCommand("ejercicio").setExecutor(new EjercicioCommand());
+    }
 }
-
-
 
 
     /* Formas de Crear Comandos
