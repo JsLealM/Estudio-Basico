@@ -1,0 +1,5 @@
+org\jslealm\basico\listeners\DamageEntityListener.class
+org\jslealm\basico\Basico.class
+org\jslealm\basico\listeners\PlayerListener$1.class
+org\jslealm\basico\listeners\PlayerListener.class
+org\jslealm\basico\commands\PrincipalCommand.class

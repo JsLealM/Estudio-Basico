@@ -1,0 +1,24 @@
+name: Basico
+version: '${version}'
+
+main: org.jslealm.basico.Basico
+api-version: '26.2'
+
+authors: [JsLealM]
+
+commands:
+  monda:
+    description: "Comando de Mondaland"
+    usage: /monda <argumento>
+    aliases:
+      - mnd
+      - pn
+  metodo:
+    description: "Comando de Mondaland Metodo"
+    usage: /metodo <argumento>
+    aliases:
+      - met
+      - mtd
+  anonimo:
+    description: "Comadno anonimo"
+    usage: /anonimo <argumento>
