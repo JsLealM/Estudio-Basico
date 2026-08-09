@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d7ae234d-1e57-46b1-8b16-1f4e137291a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jslealm/basico/commands/EjercicioCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jslealm/basico/commands/EjercicioCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jslealm/basico/Basico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jslealm/basico/Basico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jslealm/basico/commands/EjercicioCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jslealm/basico/commands/EjercicioCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jslealm/basico/Basico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jslealm/basico/Basico.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-Basico-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Basico-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.jslealm.basico.commands" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jslealm.basico.Main" />
@@ -162,7 +169,7 @@
       <workItem from="1786129084510" duration="13646000" />
       <workItem from="1786155439029" duration="3601000" />
       <workItem from="1786217127452" duration="8219000" />
-      <workItem from="1786246984386" duration="5416000" />
+      <workItem from="1786246984386" duration="9299000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,11 @@ api-version: '26.2'
 authors: [JsLealM]
 
 commands:
+  mtools:
+    description: Comando Herramientas Mondaland
+    usage: /mtools <argumento>
+    aliases:
+      - mt
   monda:
     description: "Comando de Mondaland"
     usage: /monda <argumento>
@@ -30,4 +35,7 @@ commands:
 permissions:
   ejercicio.admin:
     description: Este es el permiso para admin
+    default: op
+  mtools.admin:
+    description: Permiso admin para mtools
     default: op

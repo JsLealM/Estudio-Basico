@@ -2,6 +2,7 @@ package org.jslealm.basico;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jslealm.basico.commands.EjercicioCommand;
+import org.jslealm.basico.commands.MtoolsCommand;
 import org.jslealm.basico.commands.PrincipalCommand;
 import org.jslealm.basico.listeners.DamageEntityListener;
 import org.jslealm.basico.listeners.PlayerListener;
@@ -29,6 +30,7 @@ public final class Basico extends JavaPlugin {
     private void registerCommand (){
         getCommand("monda").setExecutor(new PrincipalCommand());
         getCommand("ejercicio").setExecutor(new EjercicioCommand());
+        getCommand("mtools").setExecutor(new MtoolsCommand());
     }
 }
 
